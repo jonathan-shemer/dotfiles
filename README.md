@@ -9,14 +9,14 @@ Install ZSH and OH-MY-ZSH (make sure to switch your default shell to ZSH using
 software at your own risk.
 
 ```html
-curl -L https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh | sh
+curl -L https://github.com/jonathan-shemer/dotfiles/raw/master/tools/install.sh | sh
 ```
 
 or
 
 ```html
 wget --no-check-certificate
-https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh -O - | sh
+https://github.com/jonathan-shemer/dotfiles/raw/master/tools/install.sh -O - | sh
 ```
 
 Installation script installs only dotfiles for the components that are installed on
@@ -44,13 +44,13 @@ to get similar effect.
 
 ## ZSH + GIT
 
-![dotfiles](https://raw.github.com/sergeylukin/dotfiles/master/img/screen-zsh-git.jpg)
+![dotfiles](https://raw.github.com/jonathan-shemer/dotfiles/master/img/screen-zsh-git.jpg)
 
 ## VIM
 
 - Run `:BundleInstall` the first time you open VIM to install all plugins
 
-![dotfiles](https://raw.github.com/sergeylukin/dotfiles/master/img/screen-vim.jpg)
+![dotfiles](https://raw.github.com/jonathan-shemer/dotfiles/master/img/screen-vim.jpg)
 
 ## Installation tips
 
@@ -92,7 +92,7 @@ and set `Run command...` - `/Users/{user}/.tmux/iterm_click_file_open_in_vim.sh 
 
 replace `{user}` with your user account name
 
-![iterm2 tmux integration](https://raw.github.com/sergeylukin/dotfiles/master/img/iterm2-tmux.png)
+![iterm2 tmux integration](https://raw.github.com/jonathan-shemer/dotfiles/master/img/iterm2-tmux.png)
 
 Create a pane named `vimc`, run `vim` there and forget about it. When you click
 on filepath, it's used to edit the file.
@@ -125,7 +125,7 @@ Retype new password:
 passwd: all authentication tokens updated successfully.
 # usermod -aG wheel USERNAME
 # su USERNAME
-# curl -L https://github.com/sergeylukin/dotfiles/raw/master/tools/install.sh | sh
+# curl -L https://github.com/jonathan-shemer/dotfiles/raw/master/tools/install.sh | sh
 ```
 
 Edit ~/.gitconfig and enter proper name and email in relevant fields.
